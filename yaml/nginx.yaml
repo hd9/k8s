@@ -40,8 +40,7 @@ metadata:
   name: nginx-ingress
 spec:
   rules:
-  - host: nginx.app
-    http:
+  - http:
       paths:
       - path: /
         pathType: Prefix
